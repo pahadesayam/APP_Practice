@@ -1,0 +1,17 @@
+x = 100
+
+class Student:
+    subject = "APP"
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        marks = 90
+        print(x)
+        print(self.subject)
+        print(self.name)
+        print(marks)
+
+s = Student("Sayam")
+s.show()
