@@ -8,10 +8,10 @@ class Student:
 
     def show(self):
         marks = 90
-        print(x)
-        print(self.subject)
-        print(self.name)
-        print(marks)
+        print("Global Variable:", x)
+        print("Class Variable:", self.subject)
+        print("Instance Variable:", self.name)
+        print("Local Variable:", marks)
 
 s = Student("Sayam")
 s.show()
