@@ -1,17 +1,36 @@
-x = 100
+# Integer
+age = 20
 
-class Student:
-    subject = "APP"
+# Float
+height = 5.8
 
-    def __init__(self, name):
-        self.name = name
+# String
+name = "Alice"
 
-    def show(self):
-        marks = 90
-        print("Global Variable:", x)
-        print("Class Variable:", self.subject)
-        print("Instance Variable:", self.name)
-        print("Local Variable:", marks)
+# Boolean
+is_student = True
 
-s = Student("Sayam")
-s.show()
+# List
+subjects = ["Math", "Science", "English"]
+
+# Tuple
+coordinates = (10, 20)
+
+# Dictionary
+student = {
+    "name": "Alice",
+    "age": 20
+}
+
+# Set
+colors = {"Red", "Green", "Blue"}
+
+# Display values and their data types
+print("Name:", name, "| Type:", type(name))
+print("Age:", age, "| Type:", type(age))
+print("Height:", height, "| Type:", type(height))
+print("Is Student:", is_student, "| Type:", type(is_student))
+print("Subjects:", subjects, "| Type:", type(subjects))
+print("Coordinates:", coordinates, "| Type:", type(coordinates))
+print("Student:", student, "| Type:", type(student))
+print("Colors:", colors, "| Type:", type(colors))
