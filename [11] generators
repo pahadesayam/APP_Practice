@@ -1,0 +1,10 @@
+def student():
+    yield "Sayam"
+    yield "Second Year"
+    yield "Advance Python"
+
+g = student()
+
+print(next(g))
+print(next(g))
+print(next(g))
